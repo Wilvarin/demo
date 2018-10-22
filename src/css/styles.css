@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.wrap {
+    margin: 0 auto;
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+}
+.photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+    justify-content: space-around;
+}
+.photo-item {
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+.photo-item.select {
+    border: 4px solid red;
+}
+
+.width-20 {
+    flex: 20%;
+}
